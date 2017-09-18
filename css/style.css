@@ -1,0 +1,46 @@
+/* css by levid 
+2017.9.18
+*/
+
+#starup{    
+    width: 100%;
+    height: 100%;
+    background: url(../img/home.jpg) no-repeat center;
+    background-size:cover;
+    overflow: hidden;
+}
+
+.starup_title{
+    margin: 15% 1% 3% 1%;
+}
+
+.starup_title img{
+    width: 100%;
+}
+
+.starup_time{
+    margin:0 25%;
+}
+
+.starup_time img{
+    
+    width: 100%;
+}
+
+.starup_button{
+    margin:100% 25% 0 25%;
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+.no_margin_top{
+    margin-top: 0rem !important;
+}
+
+.copy-right{
+    font-size: 0.5rem;
+    text-align: center;
+}
