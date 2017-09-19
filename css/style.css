@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-.page{
+#index{
     background-color: #fff;
 }
 
@@ -27,18 +27,55 @@
     width: 100%;
 }
 
+
 .starup_time{
     margin:0 25%;
 }
 
 .starup_time img{
-    
     width: 100%;
 }
 
-.starup_button{
-    margin:90% 25% 0 25%;
+.starup_hand{
+    margin:0 10%;
+	position:relative;
+    animation:mymove 2s 1;
+    -webkit-animation:mymove 2s 1; /* Safari 和 Chrome */
 }
+
+.starup_hand img{
+    width: 100%;
+}
+
+@keyframes mymove
+{
+from {bottom:-16rem;}
+to {bottom:0rem;}
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+    from {bottom:-16rem;}
+    to {bottom:0rem;}
+}
+
+.starup_button{
+    margin:0 25%;
+	position:relative;
+    animation:fade-in 2.5s 1;
+    -webkit-animation:fade-in 2.5s 1; /* Safari 和 Chrome */
+}
+
+@keyframes fade-in {  
+    0% {opacity: 0;}/*初始状态 透明度为0*/  
+    40% {opacity: 0;}/*过渡状态 透明度为0*/  
+    100% {opacity: 1;}/*结束状态 透明度为1*/  
+}  
+@-webkit-keyframes fade-in {/*针对webkit内核*/  
+    0% {opacity: 0;}  
+    40% {opacity: 0;}  
+    100% {opacity: 1;}  
+}  
 
 
 .banner img{
