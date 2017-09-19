@@ -37,7 +37,7 @@
 }
 
 .starup_hand{
-    margin:0 10%;
+    margin:0 15%;
 	position:relative;
     animation:mymove 2s 1;
     -webkit-animation:mymove 2s 1; /* Safari 和 Chrome */
